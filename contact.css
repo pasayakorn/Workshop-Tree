@@ -1,0 +1,37 @@
+body{
+    background-color: #282c36;
+    color: white;
+    font-family: 'LINE Seed Sans TH';
+    font-size: 40px;
+}
+h1{
+    text-align: center;
+    background-color: white;
+    color: #282c36;
+    width: 900px;
+    margin-left: 650px;
+}
+.profile{
+    margin-left: 200px;
+    border-radius: 200px;
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    border: white;
+    
+}
+.contact{
+    text-align: center;
+    font-size: 20px;
+    color: #69748f;
+}
+hr{
+    color: #69748f;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
