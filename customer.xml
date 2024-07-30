@@ -1,0 +1,54 @@
+<?xmlversion ="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="customer.xsl"?>
+
+<!DOCTYPE people [
+<!ELEMENT people (customer, customer, customer, customer, customer)> 
+<!ELEMENT customer (id, fname, lname, address, tel)>
+<!ELEMENT id (#PCDATA)> 
+<!ELEMENT fname (#PCDATA)>
+<!ELEMENT lname (#PCDATA)> 
+<!ELEMENT address (#PCDATA)> 
+<!ELEMENT tel (#PCDATA)> 
+]>
+
+<people>
+    <customer>
+        <id>0001</id>
+        <fname>สิริภูมิ</fname>
+        <lname>หลิมสุนทร</lname>
+        <address>วงศ์สว่าง</address>
+        <tel>0877777777</tel>
+    </customer>
+
+    <customer>
+        <id>0002</id>
+        <fname>จักรี</fname>
+        <lname>มีแก้ว</lname>
+        <address>หนองแขม</address>
+        <tel>0888888888</tel>
+    </customer>
+
+    <customer>
+        <id>0003</id>
+        <fname>วายุ</fname>
+        <lname>พิกุลทอง</lname>
+        <address>บางกอกใหญ่</address>
+        <tel>0955555555</tel>
+    </customer>
+
+    <customer>
+        <id>0004</id>
+        <fname>ธนกฤต</fname>
+        <lname>สัพพาสุ่น</lname>
+        <address>บางกอกน้อย</address>
+        <tel>0811111111</tel>
+    </customer>
+
+    <customer>
+        <id>0005</id>
+        <fname>ภาษยกร</fname>
+        <lname>ปานสินธ์</lname>
+        <address>หนองแขม</address>
+        <tel>0922222222</tel>
+    </customer>
+</people>

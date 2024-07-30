@@ -1,0 +1,55 @@
+<?xmlversion ="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="trading.xsl"?>
+
+<!DOCTYPE trading [
+<!ELEMENT trading (product, product, product, product, product)> 
+<!ELEMENT product (id, name, date, price, total)>
+<!ELEMENT id (#PCDATA)> 
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT date (#PCDATA)> 
+<!ELEMENT price (#PCDATA)> 
+<!ELEMENT total (#PCDATA)> 
+]>
+
+<trading>
+    <product>
+        <id>001</id>
+        <name>แคคตัส</name>
+        <date>01/01/66</date>
+        <price>30THB</price>
+        <total>1 ชิ้น</total>
+    </product>
+
+    <product>
+        <id>002</id>
+        <name>เบบี้อาย</name>
+        <date>02/01/66</date>
+        <price>40THB</price>
+        <total>2ชิ้น</total>
+    </product>
+
+    <product>
+        <id>003</id>
+        <name>พลูด่าง</name>
+        <date>03/01/66</date>
+        <price>50THB</price>
+        <total>3ชิ้น</total>
+    </product>
+
+    <product>
+        <id>004</id>
+        <name>คลาสซูล่า</name>
+        <date>04/01/66</date>
+        <price>40THB</price>
+        <total>4ชิ้น</total>
+    </product>
+
+    <product>
+        <id>005</id>
+        <name>บอนไซ</name>
+        <date>05/01/66</date>
+        <price>100THB</price>
+        <total>5ชิ้น</total>
+    </product>
+
+</trading>

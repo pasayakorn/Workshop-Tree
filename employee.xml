@@ -1,0 +1,54 @@
+<?xmlversion ="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="employee.xsl"?>
+
+<!DOCTYPE people [
+<!ELEMENT people (employee, employee, employee, employee, employee)> 
+<!ELEMENT employee (id, firstname, lastname, gender, tel)>
+<!ELEMENT id (#PCDATA)> 
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)> 
+<!ELEMENT gender (#PCDATA)> 
+<!ELEMENT tel (#PCDATA)> 
+]>
+
+<people>
+    <employee>
+        <id>00001</id>
+        <firstname>ขยัน</firstname>
+        <lastname>ทำดี</lastname>
+        <gender>ชาย</gender>
+        <tel>0922222222</tel>
+    </employee>
+
+    <employee>
+        <id>00002</id>
+        <firstname>ซื่อสัตย์</firstname>
+        <lastname>พร้อมลักทรัพย์</lastname>
+        <gender>ชาย</gender>
+        <tel>0888888888</tel>
+    </employee>
+
+    <employee>
+        <id>00003</id>
+        <firstname>สมหญิง</firstname>
+        <lastname>จิงกะเบล</lastname>
+        <gender>หญิง</gender>
+        <tel>0855555555</tel>
+    </employee>
+
+    <employee>
+        <id>00004</id>
+        <firstname>หิวข้าว</firstname>
+        <lastname>ก้าวร้าว</lastname>
+        <gender>หญิง</gender>
+        <tel>0866666666</tel>
+    </employee>
+
+    <employee>
+        <id>00005</id>
+        <firstname>สมชาย</firstname>
+        <lastname>ตายคาตีน</lastname>
+        <gender>ชาย</gender>
+        <tel>0955555555</tel>
+    </employee>
+</people>

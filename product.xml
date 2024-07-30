@@ -1,0 +1,54 @@
+<?xmlversion ="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="product.xsl"?>
+
+<!DOCTYPE product [
+<!ELEMENT product (tree, tree, tree, tree, tree)> 
+<!ELEMENT tree (id, name, detail, price, total)>
+<!ELEMENT id (#PCDATA)> 
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT detail (#PCDATA)> 
+<!ELEMENT price (#PCDATA)> 
+<!ELEMENT total (#PCDATA)> 
+]>
+
+<product>
+    <tree>
+        <id>001</id>
+        <name>แคคตัส</name>
+        <detail>เป็นพืชประเภทไม้อวบน้ำ รดหรือฉีดพ่นน้ำประมาณ 3-4 วันต่อครั้ง</detail>
+        <price>30THB</price>
+        <total>50 ชิ้น</total>
+    </tree>
+
+    <tree>
+        <id>002</id>
+        <name>เบบี้อาย</name>
+        <detail>เป็นพืชอวบน้ำ รดน้ำ 2-3 ครั้งต่ออาทิตย์</detail>
+        <price>40THB</price>
+        <total>50ชิ้น</total>
+    </tree>
+
+    <tree>
+        <id>003</id>
+        <name>พลูด่าง</name>
+        <detail>เป็นพืชไม้เลี้ยง รดน้ำ 2-3 วัน/ครั้ง</detail>
+        <price>50THB</price>
+        <total>50ชิ้น</total>
+    </tree>
+
+    <tree>
+        <id>004</id>
+        <name>คลาสซูล่า</name>
+        <detail>เป็นพืชอวบน้ำ </detail>
+        <price>40THB</price>
+        <total>50ชิ้น</total>
+    </tree>
+
+    <tree>
+        <id>005</id>
+        <name>บอนไซ</name>
+        <detail>เป็นต้นสนพันธุ์ต่าง ๆ รดน้ำทุกสัน</detail>
+        <price>100THB</price>
+        <total>50ชิ้น</total>
+    </tree>
+</product>
